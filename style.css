@@ -1,0 +1,42 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgb(0, 16, 92) 0%, rgba(18,17,17,1) 100%);
+}
+
+.main {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    margin: 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 50%;
+}
+
